@@ -1,10 +1,10 @@
-package lab;
+import java.util.*;
 
 public class Lab {
 	public static void main(String[] args) {
 		drawPatternedRectangle(6,8);
 	}
-    
+
 	public static boolean verifyPassword(String password, int minLength) {
 		boolean hasUpper, hasDigit;
 		hasUpper = false;
